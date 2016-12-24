@@ -1,0 +1,74 @@
+.control-group{
+	margin-bottom:9px;
+
+}
+
+legend+.control-group{
+	margin-top:18px;
+	-webkit-margin-top-collapse:separate
+}
+.form-horizontal .control-group{
+	margin-bottom:18px;*zoom:1
+}
+.form-horizontal .control-group:before,.form-horizontal .control-group:after{
+	display:table;
+	content:""
+}
+.form-horizontal .control-group:after{
+	clear:both
+}
+.form-horizontal .control-label{
+	float:left;
+	width:140px;
+	padding-top:5px;
+	text-align:right
+}
+.form-horizontal .controls{
+	*display:inline-block;
+	*padding-left:20px;
+	margin-left:160px;
+	*margin-left:0
+}
+.form-horizontal .controls:first-child{
+	*padding-left:160px
+}
+.form-horizontal .help-block{
+	margin-top:9px;
+	margin-bottom:0
+}
+.form-horizontal .form-actions{
+	padding-left:160px
+}
+
+.input-xlarge,  .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+.input-xlarge, .uneditable-input {
+    display: inline-block;
+    height: 30px;
+    padding: 4px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+}
+.input-xlarge {
+    width: 270px;
+}
+ .uneditable-input {
+    margin-left: 0;
+}
+
+
